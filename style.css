@@ -3,7 +3,7 @@ html {
 }
 
 
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
@@ -11,11 +11,13 @@ html {
 }
 
 body {
-    background-color: #080808;  
-    color: #fff;    /* Text Colour*/;
+    background-color: #080808;
+    color: #fff;
+    /* Text Colour*/
+    ;
 }
 
-#header{
+#header {
     width: 100%;
     height: 100vh;
     background-image: url(./img/background.png);
@@ -46,7 +48,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color:#fff;
+    color: #fff;
     text-decoration: none;
     font-size: 18px;
     position: relative;
@@ -69,7 +71,8 @@ nav ul li a:hover::after {
 
 .header-text {
     margin-top: 20%;
-    font-size: 30px;;  
+    font-size: 30px;
+    ;
 }
 
 .header-text h1 {
@@ -78,20 +81,21 @@ nav ul li a:hover::after {
 }
 
 
- 
+
 #first-text {
-    background: linear-gradient(300deg, #7470c8,#5a3e30, #5753a0, #fff, #5f5d91,#654838,#b17757,#a19fc7, #fff);
+    background: linear-gradient(300deg, #7470c8, #5a3e30, #5753a0, #fff, #5f5d91, #654838, #b17757, #a19fc7, #fff);
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;  
+    -webkit-text-fill-color: transparent;
     background-size: 500%;
     animation: animate 10s linear infinite;
 }
 
 @keyframes animate {
-    0%{
+    0% {
         background-position: 0%;
     }
-    100%{
+
+    100% {
         background-position: 100%;
     }
 }
@@ -102,7 +106,7 @@ nav ul li a:hover::after {
     padding: 80px 0;
     color: #ababab;
     border-radius: 80px;
-    
+
 }
 
 .row {
@@ -128,16 +132,16 @@ nav ul li a:hover::after {
     font-size: 60px;
     font-weight: 600;
     color: #fff;
-    
+
 }
 
-.tab-titles{
+.tab-titles {
     display: flex;
     margin: 20px 0 40px;
 }
 
-.tab-links{
-    margin-right: 50px; 
+.tab-links {
+    margin-right: 50px;
     font-size: 18px;
     font-weight: 500;
     cursor: pointer;
@@ -148,7 +152,7 @@ nav ul li a:hover::after {
     content: "";
     width: 0;
     height: 3px;
-    background:#a19fc7;
+    background: #a19fc7;
     position: absolute;
     left: 0;
     bottom: -8px;
@@ -159,12 +163,12 @@ nav ul li a:hover::after {
     width: 50%;
 }
 
-.tab-contents ul li{
+.tab-contents ul li {
     list-style: none;
     margin: 10px 0;
 }
 
-.tab-contents ul li span{
+.tab-contents ul li span {
     color: #a19fc7;
     font-size: 14px;
 }
@@ -183,14 +187,14 @@ nav ul li a:hover::after {
     background-color: #080808;
 }
 
-.work-list{
+.work-list {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     grid-gap: 40px;
     margin-top: 50px;
 }
 
-.work{
+.work {
     border-radius: 10px;
     position: relative;
     overflow: hidden;
@@ -206,7 +210,7 @@ nav ul li a:hover::after {
 .layer {
     width: 100%;
     height: 0;
-    background: linear-gradient(184deg, rgba(177,119,87,0) 0%, rgba(161,159,199,1) 100%);
+    background: linear-gradient(184deg, rgba(177, 119, 87, 0) 0%, rgba(161, 159, 199, 1) 100%);
     border-radius: 10px;
     position: absolute;
     left: 0;
@@ -254,7 +258,7 @@ nav ul li a:hover::after {
     height: 100%;
 }
 
-.btn{
+.btn {
     display: block;
     margin: 50px auto;
     width: fit-content;
@@ -266,7 +270,7 @@ nav ul li a:hover::after {
     transition: background 0.2s;
 }
 
-.btn:hover{
+.btn:hover {
     background: #a19fc7;
 }
 
@@ -314,11 +318,11 @@ nav ul li a:hover::after {
     cursor: pointer;
 }
 
-.btn:hover{
+.btn:hover {
     background: #a19fc7;
 }
 
-.btn2:hover{
+.btn2:hover {
     background: #a19fc7;
 }
 
@@ -326,7 +330,8 @@ nav ul li a:hover::after {
     width: 100%;
 }
 
-form input, form textarea {
+form input,
+form textarea {
     width: 100%;
     border: 0;
     outline: none;
@@ -364,61 +369,77 @@ form btn2 {
 #myBtn {
     width: 50px;
     height: 50px;
-    display: none; /* Hidden by default */
-    position: fixed; /* Fixed/sticky position */
-    bottom: 20px; /* Place the button at the bottom of the page */
-    right: 30px; /* Place the button 30px from the right */
-    z-index: 99; /* Make sure it does not overlap */
-    border: none; /* Remove borders */
-    outline: none; /* Remove outline */
-    background-color: #a19fc7; /* Set a background color */
-    cursor: pointer; /* Add a mouse pointer on hover */
-    padding: 15px; /* Some padding */
-    border-radius: 24px; /* Rounded corners */
-    font-size: 18px; /* Increase font size */
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Fixed/sticky position */
+    bottom: 20px;
+    /* Place the button at the bottom of the page */
+    right: 30px;
+    /* Place the button 30px from the right */
+    z-index: 99;
+    /* Make sure it does not overlap */
+    border: none;
+    /* Remove borders */
+    outline: none;
+    /* Remove outline */
+    background-color: #a19fc7;
+    /* Set a background color */
+    cursor: pointer;
+    /* Add a mouse pointer on hover */
+    padding: 15px;
+    /* Some padding */
+    border-radius: 24px;
+    /* Rounded corners */
+    font-size: 18px;
+    /* Increase font size */
     color: #080808;
     transition: transform 3s;
-  }
+}
 
 #myBtn i {
     font-size: 24px;
     margin-left: 3px;
-}   
+}
 
 #myBtn:hover {
-    background-color: #555; /* Add a dark-grey background on hover */
+    background-color: #555;
+    /* Add a dark-grey background on hover */
     transform: scale(1.1);
-  }
+}
 
-  /*------------------------------------ CSS for Smaler Screen ------------------------------------ */
-  nav .fa-solid{
+/*------------------------------------ CSS for Smaler Screen ------------------------------------ */
+nav .fa-solid {
     display: none;
-  }
+}
 
-  html,body{
+html,
+body {
     overflow-x: hidden;
 }
 
-  @media only screen and (max-width: 600px){
+@media only screen and (max-width: 600px) {
 
-    #header{
+    #header {
         background-image: url(./img/phone-background.png)
     }
-    
-    .header-text{
+
+    .header-text {
         margin-top: 100%;
         font-size: 16px;
     }
+
     .header-text h1 {
         margin-top: 70%;
         padding-top: 50%;
         font-size: 30px;
     }
 
-    nav .fa-solid{
+    nav .fa-solid {
         display: block;
         font-size: 25px;
-      }
+    }
+
     nav ul {
         background: #a19fc7;
         position: fixed;
@@ -437,18 +458,19 @@ form btn2 {
     }
 
 
-    nav ul .fa-solid{
+    nav ul .fa-solid {
         position: absolute;
         top: 25px;
         left: 25px;
         cursor: pointer;
     }
 
-    .sub-title{
+    .sub-title {
         font-size: 40px;
     }
 
-    .about-col-1, .about-col-2{
+    .about-col-1,
+    .about-col-2 {
         flex-basis: 100%;
     }
 
@@ -465,7 +487,8 @@ form btn2 {
         margin-right: 20px;
     }
 
-    .contact-left, .contact-right{
+    .contact-left,
+    .contact-right {
         flex-basis: 100%;
     }
 
