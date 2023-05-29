@@ -26,8 +26,9 @@ Web sitesini görüntülemek için index.html dosyasını bir web tarayıcısın
 
 
 
-## Ekran Görüntüleri
-![resim1](https://github.com/kagantemizkan/portfolio-site/assets/46727689/52aabaf2-4a6f-4260-aab2-735ac9bcad61)
+## Ekran Görüntüsü
+![resim1](https://github.com/kagantemizkan/portfolio-site/assets/46727689/079fa9ed-19a2-4e62-9ecb-3a95e99ae8bd)
+
 
 
   
