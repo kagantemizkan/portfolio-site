@@ -19,19 +19,15 @@
 
 ## Kurulum 
 
-Bu projeyi yerel olarak çalıştırmak için aşağıdaki adımları izleyin:
-
-1. Depoyu klonlayın: git clone [repo URL]
-2. Proje dizinine gidin: cd portfolio
-
 Bu proje statik HTML, CSS ve JavaScript dosyalarından oluştuğu için ek kurulum adımlarına ihtiyaç duyulmaz.
+Web sitesini görüntülemek için index.html dosyasını bir web tarayıcısında açın. Gezinme menüsünü kullanarak farklı bölümler arasında geçiş yapabilirsiniz.
 
-Kullanım
+
+
 
 
 ## Ekran Görüntüleri
+![screencapture-file-C-Users-ktemi-OneDrive-Masaustu-portfolio-site-master-index-html-2023-05-30-02_30_49](https://github.com/kagantemizkan/portfolio-site/assets/46727689/52aabaf2-4a6f-4260-aab2-735ac9bcad61)
 
-![Uygulama Ekran Görüntüsü](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
-## 
 
   
